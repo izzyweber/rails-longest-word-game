@@ -1,0 +1,7 @@
+<h1>Here's your score!</h1>
+Your word was: <%= @word %> <br>
+Score: <%= @response[:score] %> <br>
+<%= @response[:message] %>
+<%= link_to "Play again!", new_path %>
+
+<%= session[:current_user_session] %>
